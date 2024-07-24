@@ -9,8 +9,20 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          1: '#ccc',
+        },
+      },
+      padding: {
+        18: '4.5rem',
+      },
+      fontSize: {
+        '20px': '1.25rem',
+        '28px': '1.75rem',
+      },
+    },
   },
   plugins: [],
 }
-
